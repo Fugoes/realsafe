@@ -18,7 +18,7 @@ The :class:`Classifier <ares.model.base.Classifier>` defines an abstract base cl
        def _labels(self, xs):
            ...
 
-The :class:`ClassifierWithLogits <ares.model.base.ClassifierWithLogits` defines an abstract base class for an image classifier output not only labels, but also logits:
+The :class:`ClassifierWithLogits <ares.model.base.ClassifierWithLogits>` defines an abstract base class for an image classifier output not only labels, but also logits:
 
 .. code-block:: python
 
